@@ -1,0 +1,23 @@
+.logo-img{
+	width: 100px;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	background-color: white;
+	border: 1px solid #172162;
+	padding-right: 1rem;
+	color: #172162;
+}
+
+.title{
+	font-size: 2rem;
+}
+.inline-flex{
+	display: inline-flex;
+	align-items: center;
+}
