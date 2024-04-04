@@ -1,0 +1,59 @@
+.current-page-title{
+	background-color: #F5F5F5;
+	padding: 1rem;
+	width: 100%;
+}
+.current-page-title span{
+	color: #e02e3d;
+	font-style: oblique;
+}
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+.flex-item{
+	flex-basis: 100%;
+	background-color: white;
+	margin-bottom: 1rem;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+	border-top: 2px solid #e02e3d;
+	
+}
+
+.article{
+	font-style:oblique;
+	text-align: center;
+	color: #1b1b1b;
+	text-decoration: none;
+}
+.article:hover{
+	text-decoration: underline;
+	color: #1b1b1b;
+
+}
+
+.article-img{
+	align-self: center;
+	max-width: 100%;
+	object-fit: cover;
+}
+.article-title{
+	padding: 0.5rem;
+}
+
+@media (min-width: 520px) {
+
+}
+
+@media (min-width: 723px) {
+	
+}
+@media (min-width: 933px) {
+
+}
+@media (min-width: 1127px) {
+
+}
