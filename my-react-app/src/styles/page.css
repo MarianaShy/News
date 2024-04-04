@@ -9,8 +9,10 @@
 }
 .flex-container{
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	padding: 1rem;
+	max-width: 900px;
+	align-self: center;
 }
 .flex-item{
 	flex-basis: 100%;
@@ -50,6 +52,7 @@
 
 @media (min-width: 723px) {
 	
+
 }
 @media (min-width: 933px) {
 
