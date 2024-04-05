@@ -1,3 +1,5 @@
+import Article from "../utils/Article"
+
 type newsProp = {
 	news: any
 }
@@ -13,19 +15,15 @@ const Page = (props:newsProp) => {
 			</div>
 			<div className="flex-container">
 				{props?.news?.map((data:any) => {
-					if(count < 10){
-						console.log(data)
-						count++
-						return <>
-							<div className="flex-item">
-							<a className="article" href={data?.url}>
-								<img src={data?.urlToImage} alt="" className="article-img"/>
-								<h4 className="article-title">{data?.title}</h4>
-							</a>
-							</div>
-						
-						</>
+					if(data?.author && data?.urlToImage){
+						if(count < 10){
+							count++
+							return <>
+								<Article news={data}/>
+							</>
+						}
 					}
+					
 					
 				})}
 
