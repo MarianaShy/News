@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import Navbar from '../utils/Navbar'
-import Page from '../utils/Page'
+import Navbar from './navbar/Navbar'
+import Page from './page/Page'
 
 
 
