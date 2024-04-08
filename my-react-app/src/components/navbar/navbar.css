@@ -7,6 +7,9 @@ header{
 	background-color: white;
 }
 
+.header{
+	border-bottom: 4px solid #e02e3d;
+}
 .header-flex{
 	display: flex;
 	flex-direction: row;
@@ -14,7 +17,6 @@ header{
 	justify-content: space-between;
 	width: 100%;
 	align-items: center;
-	border-bottom: 4px solid #e02e3d;
 
 }
 .title{

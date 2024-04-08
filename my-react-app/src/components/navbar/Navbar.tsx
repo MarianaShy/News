@@ -7,7 +7,8 @@ const Navbar = (props:menuProp) => {
 	return (
 
 		<header>
-			<div className="content header-flex">
+			<div className="header">
+				<div className="content header-flex">
 				<div className="header-title">
 					<img src={N} alt="Blue letters NT on white background with vertical sign 'News Today'  in the middle" className="logo-img"></img>
 					<h1 className="title">News Today</h1>
@@ -19,6 +20,8 @@ const Navbar = (props:menuProp) => {
 					<h3 onClick={()=>props?.setMenu("internet+technologies")} className="cursor-pointer">IT</h3>
 				</nav>
 			</div>
+			</div>
+			
 			<div className="current-page-title">
 				<div className="content">
 					<h2><span>/  </span>Newest articles</h2>
