@@ -2,6 +2,7 @@
 
 @import url(./components/navbar/navbar.css);
 @import url(./components/page/page.css);
+@import url(./components/footer/footer.css);
 
 
 
@@ -32,6 +33,11 @@ li{
 	list-style: none;
 }
 
+.main-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 body {
    margin: 0;
    min-width: 320px;
@@ -39,11 +45,11 @@ body {
    width: 100%;
 	margin: 0 auto;
 	font-family: Poppins;
+	
 }
 .content{
 	max-width: 1280px;
 	margin: 0 auto;
-
 }
 
 
@@ -67,9 +73,7 @@ body {
 	html{
 		font-size: 16px;
 	}
-	.btn{
-		padding: 0.7rem 1.5rem;
-	}
+	
 }
 
 @media (min-width: 723px) {

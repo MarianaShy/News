@@ -2,19 +2,20 @@
 
 .current-page-title{
 	background-color: #F5F5F5;
-	padding: 1rem;
+	padding: 1rem 0 1rem 0;
 	width: 100%;
 }
 .current-page-title span{
 	color: #e02e3d;
 	font-style: oblique;
+	padding-left: 1rem ;
 }
-.flex-container{
+.left-article-flex{
 	display: flex;
 	flex-wrap: wrap;
 	padding: 1rem;
 	max-width: 900px;
-	align-self: center;
+	margin: 0 auto;
 }
 .flex-item{
 	flex-basis: 100%;
@@ -25,4 +26,26 @@
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 	border-top: 2px solid #e02e3d;
 	
+}
+
+
+@media (min-width: 520px) {
+	.left-article-flex{
+		padding: 2rem;
+	}
+	
+}
+
+@media (min-width: 723px) {
+	
+}
+@media (min-width: 933px) {
+	html{
+		font-size: 18px;
+	}
+}
+@media (min-width: 1127px) {
+	html{
+		font-size: 20px;
+	}
 }
