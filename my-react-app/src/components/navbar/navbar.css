@@ -5,7 +5,6 @@
 header{
 	
 	background-color: white;
-	border-bottom: 4px solid #e02e3d;
 }
 
 .header-flex{
@@ -15,6 +14,8 @@ header{
 	justify-content: space-between;
 	width: 100%;
 	align-items: center;
+	border-bottom: 4px solid #e02e3d;
+
 }
 .title{
 	font-size: 2rem;

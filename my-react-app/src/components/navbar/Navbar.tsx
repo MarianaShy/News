@@ -19,6 +19,11 @@ const Navbar = (props:menuProp) => {
 					<h3 onClick={()=>props?.setMenu("internet+technologies")} className="cursor-pointer">IT</h3>
 				</nav>
 			</div>
+			<div className="current-page-title">
+				<div className="content">
+					<h2><span>/  </span>Newest articles</h2>
+				</div>
+			</div>
 			
 		</header>
 	)

@@ -12,11 +12,9 @@
 }
 
 #root {
-   display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	background-color: #ebebeb;
 	color: #1b1b1b;
+	height: 100%;
 
 
    font-synthesis: none;
@@ -27,6 +25,7 @@
 
 html{
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 li{
@@ -37,6 +36,7 @@ li{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100%;
 }
 body {
    margin: 0;
@@ -45,6 +45,8 @@ body {
    width: 100%;
 	margin: 0 auto;
 	font-family: Poppins;
+	height: 100%;
+
 	
 }
 .content{
