@@ -28,7 +28,7 @@ const Main = () => {
 	
 	return (
 		<div className='main-flex'>
-		<Navbar setMenu={setMenu} />
+		<Navbar setMenu={setMenu} menu={menu}/>
 		<Page news={news} />
 		<Footer />
 	 </div>

@@ -1,7 +1,9 @@
 import N from "../../assets/N.png"
 
 type menuProp = {
-	setMenu:any}
+	setMenu: any,
+	menu: string
+}
 
 const Navbar = (props:menuProp) => {
 	return (
@@ -17,14 +19,14 @@ const Navbar = (props:menuProp) => {
 					<h3 onClick={()=> props?.setMenu("Politics")} className="cursor-pointer">POLITICS</h3>		
 					<h3 onClick={()=>props?.setMenu("Ukraine")} className="cursor-pointer">UKRAINE</h3>
 					<h3 onClick={()=>props?.setMenu("Sport+news")} className="cursor-pointer">SPORT</h3>
-					<h3 onClick={()=>props?.setMenu("internet+technologies")} className="cursor-pointer">IT</h3>
+					<h3 onClick={()=>props?.setMenu("Internet+technologies")} className="cursor-pointer">IT</h3>
 				</nav>
 			</div>
 			</div>
 			
 			<div className="current-page-title">
 				<div className="content">
-					<h2><span>/  </span>Newest articles</h2>
+					<h2><span>/  </span>{props.menu ? props.menu : "Politics"}</h2>
 				</div>
 			</div>
 			
