@@ -1,15 +1,12 @@
-import Article from "../article/Article"
+import Article from "../article/Article";
+import  { newsProp } from "./page.types"
 
-type newsProp = {
-	news: any
-}
 
 
 const Page = (props:newsProp) => {
 	let count = 0
 	return (
 		<main>
-			
 			<div className="content">
 				<div className="left-article-flex">
 					{props?.news?.map((data:any) => {
