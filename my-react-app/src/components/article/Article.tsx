@@ -1,5 +1,5 @@
 import { newsProp, ArticleInterface } from "./article.types"
-
+//test
 
 const Article = (props:newsProp) => {
 
