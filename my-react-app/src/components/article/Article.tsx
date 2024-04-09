@@ -1,11 +1,9 @@
 import { newsProp, ArticleInterface } from "./article.types"
-import { v4 as uuidv4 } from 'uuid';
 
 
 const Article = (props:newsProp) => {
 
 const article: ArticleInterface = {
-	id: uuidv4(),
 	imgUrl: props.news.urlToImage,
 	title: props.news.title,
 	url: props.news.url
