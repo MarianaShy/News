@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Navbar from './navbar/Navbar'
 import Page from './page/Page'
 import Footer from './footer/Footer'
-
+//test
 
 
 
