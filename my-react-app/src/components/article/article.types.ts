@@ -3,8 +3,8 @@ export type newsProp = {
 }
 
 export interface ArticleInterface {
-	id: "";
-	imgUrl: "";
-	title: "";
-	url: ""
+	id: string;
+	imgUrl: string;
+	title: string;
+	url: string
 }
