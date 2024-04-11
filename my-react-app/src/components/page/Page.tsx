@@ -5,6 +5,7 @@ import  { newsProp } from "./page.types"
 
 const Page = (props:newsProp) => {
 	let count = 0
+	console.log(props)
 	return (
 		<main>
 			<div className="content">

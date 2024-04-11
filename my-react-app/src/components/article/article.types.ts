@@ -1,9 +1,8 @@
-export type newsProp = {
-	news: any
+export interface newsProp {
+	news: {
+		urlToImage: string;
+		title: string;
+		url: string
+	}
 }
 
-export interface ArticleInterface {
-	imgUrl: string;
-	title: string;
-	url: string
-}

@@ -1,21 +1,16 @@
-import { newsProp, ArticleInterface } from "./article.types"
-//test
+import { newsProp } from "./article.types"
+
 
 const Article = (props:newsProp) => {
 
-const article: ArticleInterface = {
-	imgUrl: props.news.urlToImage,
-	title: props.news.title,
-	url: props.news.url
-}
 
-console.log(article)
 
+	
 return(
 	<div className="flex-item">
-	<a className="article" href={article.url} target="_blank">		
-		<img src={article.imgUrl} alt="Main picture for the article" className="article-img"/>
-		<h4 className="article-title">{article.title}</h4>
+	<a className="article" href={props?.news?.url} target="_blank">		
+		<img src={props?.news?.urlToImage} alt="Main picture for the article" className="article-img"/>
+		<h4 className="article-title">{props?.news?.title}</h4>
 	</a>
 </div>
 )

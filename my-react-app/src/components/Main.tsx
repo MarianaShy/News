@@ -21,6 +21,8 @@ const Main = () => {
 		}
   }
 
+
+
   useEffect(()=>{
 		getNews()
   },[menu])
