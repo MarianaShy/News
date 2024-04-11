@@ -1,4 +1,8 @@
+import { newsProp } from "../article/article.types";
 
-export type newsProp = {
-	news: any
-}
+
+
+
+export interface pageProp {
+	news: newsProp[]
+ }
