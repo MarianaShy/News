@@ -1,8 +1,8 @@
-import { newsProp } from "../article/article.types";
+//import { newsProp } from "../article/article.types";
 
 
 
 
 export interface pageProp {
-	news: newsProp[]
+	news: React.ReactNode[];
  }
