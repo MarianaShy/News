@@ -1,8 +1,9 @@
-//import { newsProp } from "../article/article.types";
-
-
-
+export interface NewsItem {
+	title: string;
+	urlToImage: string;
+	url: string
+}
 
 export interface pageProp {
-	news: React.ReactNode[];
- }
+	news: NewsItem[];
+}

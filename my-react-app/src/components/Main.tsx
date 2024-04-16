@@ -10,6 +10,8 @@ const Main = () => {
 	
 	const [news, setNews] = useState([])
 	const [menu, setMenu] = useState("")
+	
+
 
 	const getNews = async() =>{
 		try{

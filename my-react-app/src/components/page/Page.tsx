@@ -4,7 +4,6 @@ import  { pageProp } from "./page.types"
 
 const Page = (props:pageProp) => {
 	let count = 0
-	console.log(props)
 	return (
 		<main>
 			<div className="content">
@@ -21,6 +20,7 @@ const Page = (props:pageProp) => {
 						}
 					})}
 				</ul>
+				<ul className="right-article-flex"></ul>
 			</div>
 			
 		</main>

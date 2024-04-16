@@ -1,9 +1,6 @@
-import N from "../../assets/N.png"
+import logo from "../../assets/logo.png"
+import menuProp from "./navbar.types.ts"
 
-type menuProp = {
-	setMenu: any,
-	menu: string
-}
 
 const Navbar = (props:menuProp) => {
 	return (
@@ -12,7 +9,7 @@ const Navbar = (props:menuProp) => {
 			<div className="header">
 				<div className="content header-flex">
 				<div className="header-title">
-					<img src={N} alt="Blue letters NT on white background with vertical sign 'News Today'  in the middle" className="logo-img"></img>
+					<img src={logo} alt="Blue letters NT on white background with vertical sign 'News Today'  in the middle" className="logo-img"></img>
 					<h1 className="title">News Today</h1>
 				</div>
 				<nav className="navigation-flex">
