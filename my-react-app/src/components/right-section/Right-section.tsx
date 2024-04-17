@@ -1,14 +1,13 @@
 import Article from "../article/Article";
-import  { pageProp } from "./page.types"
+import  { pageProp } from "../page/page.types"
 
 
-const Page = (props:pageProp) => {
+const RightSection = (props:pageProp) => {
 	let count = 0
 
 	return (
 		
-
-				<ul className="left-article-flex">
+				<ul className="right-article-flex">
 					{props?.news?.map((data:any) => {
 						if(data?.title && data?.urlToImage){
 							console.log(data)
@@ -21,9 +20,11 @@ const Page = (props:pageProp) => {
 						}
 					})}
 				</ul>
-
+		
+		
+		
 	)
 	
 }
 
-export default Page
+export default RightSection

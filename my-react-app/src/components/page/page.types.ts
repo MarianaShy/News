@@ -6,4 +6,5 @@ export interface NewsItem {
 
 export interface pageProp {
 	news: NewsItem[];
+
 }
